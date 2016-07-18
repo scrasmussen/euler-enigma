@@ -19,20 +19,14 @@ def digitalSum(n):
     return sum
 
 maxDigitalSum = 0    
-num = 1235321
-a = 1
-done = False
 
-while not done:
-    a += 1
+for a in range(1,100):
     for b in range(1,100):
         num = a ** b
         sum = digitalSum(num)
         if sum > maxDigitalSum:
             maxDigitalSum = sum
             print a, "^" , b, " with digital sum of ", maxDigitalSum, " is the new max"
-
-    if (a >= 100): done = True
 
 digitalSum(num)
 print "Fin"

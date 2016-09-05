@@ -18,8 +18,6 @@ def initListList():
     # from 1 to 8
     for i in range(1,9):
         ICHECKURL="https://www.icheckmovies.com/lists/?page="+str(i)+"&tags=user:icheckmovies"
-        print()
-        print(ICHECKURL)
         req = urlopen(ICHECKURL);
         soup = BeautifulSoup(req,"lxml")
         titleList = soup.findAll(class_="title")
@@ -38,16 +36,55 @@ def readListList():
     f.close()
     return listList
 
+def chooseList(listList):
+    print("Here is the list:")
+    for i, name in enumerate(listList):
+        print(i, name)
+    return int(input("\nWhich playlist would you like to check? "))
+
+def getTitleList(listName):
+    ICHECKURL="https://www.icheckmovies.com/lists/"+listName
+    req = urlopen(ICHECKURL);
+    soup = BeautifulSoup(req,"lxml")
+    titles = soup.findAll(class_="optionIcon optionIMDB external")
+    titleList = []
+    for title in titles:
+        name=title["title"]
+        titleList.append(name[6:-12])
+    return titleList
+
 
 print("Start")
 
+# Read name of movie lists from file or generate file from website
 readList=1
 if readList:
     listList = readListList()
 else:
     initListList()
 
-print(listList)
+# Choose list
+#i = chooseList(listList)
+i=59
+print(listList[i])
+
+# titleList = getTitleList(listList[i])
+
+movie = "Jaws"
+
+
+# SEARCH FOR A SPECIFIC MOVIE
+SEARCHURL="http://www.netflixreleases.com/search/?keyword="+movie
+req = urlopen(SEARCHURL);
+soup = BeautifulSoup(req,"lxml")
+titles = soup.findAll(class_="listitem")
+titleList = []
+for title in titles:
+    movie += ' ('
+    if movie in title.text:
+        print("==",title.text)
+
+
 
 print("Fin")
 

@@ -1,10 +1,13 @@
-INTERWEBZ=False
 #
 # checkmatches.py
 # A non-spoiler top prowrestling match finder
+# list from http://www.profightdb.com/top-rated-matches.html
 # For copyright see LICENSE.md
 # Author: Soren Rasmussen github: scrasmussen
 #
+
+INTERWEBZ=False
+
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from random import randint
@@ -12,13 +15,6 @@ from datetime import datetime as dt
 from dateutil.parser import parse
 import pandas as pd
 
-# List name
-#  |-get a list from iCheckMovies
-#  |-check a movie against allflicks.net
-
-
-def suffix(d):
-    return 'th' if 11<=d<=13 else {1:'st',2:'nd',3:'rd'}.get(d%10, 'th')
 
 def sortTopMatches(df):
   df.to_csv("topMatches.csv", index=False, header=False)
@@ -69,9 +65,3 @@ df.insert(0,"CHECK",'[ ]')
 # Save the sorted by date list
 # sortByDate(df)
 print("Fin")
-
-
-  # print("========")
-    # movie += ' ('
-    # if movie in title.text:
-    #     print("==",title.text)

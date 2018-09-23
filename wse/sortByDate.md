@@ -1,0 +1,150 @@
+[ ] +5,1983-04-21,NJPW:Sumo Hall Show (Apr '83) ,Dynamite Kid vs Tiger Mask I 
+[ ] +5,1984-12-05,UWF (original):Tokyo Show (Dec '84) ,Kazuo Yamazaki vs Nobuhiko Takada 
+[ ] +5,1985-03-09,AJPW:Sumo Hall Show (Mar '85) ,Kuniaki Kobayashi vs Tiger Mask II 
+[ ] +5,1986-02-14,CWF:Battle of the Belts 2 ,Barry Windham vs Ric Flair 
+[ ] +5,1986-04-19,NWA:Jim Crockett Sr. Memorial Tag Team Tournament ,"Bobby Fulton, Tommy Rogers vs Butch Miller, Luke Williams "
+[ ] +5,1987-04-11,NWA:Crockett Cup '87 - Day 2 ,Barry Windham vs Ric Flair 
+[ ] +5,1987-07-31,NWA:The Great American Bash '87 (FL) ,"The War Machine, Lex Luger, Tully Blanchard, Arn Anderson, Ric Flair vs Paul Ellering, Animal, Hawk, Nikita Koloff, Dusty Rhodes "
+[ ] +5,1988-12-16,AJPW:Budokan Hall Show (Dec '88) ,"Terry Gordy, Stan Hansen vs Toshiaki Kawada, Genichiro Tenryu "
+[ ] +5,1989-02-20,NWA:Chi-Town Rumble ,Ric Flair vs Ricky Steamboat 
+[ ] +5,1989-04-02,NWA:Clash of the Champions VI: Ragin' Cajun ,Ric Flair vs Ricky Steamboat 
+[ ] +5,1989-05-07,NWA:WrestleWar '89 ,Ricky Steamboat vs Ric Flair 
+[ ] +5,1989-06-05,AJPW:Budokan Hall Show (Jun '89) ,Genichiro Tenryu vs Jumbo Tsuruta 
+[ ] +5,1989-11-15,NWA:Clash of the Champions IX: New York Knockout ,Terry Funk vs Ric Flair 
+[ ] +5,1990-06-08,AJPW:Budokan Hall Show (Jun '90) ,Jumbo Tsuruta vs Mitsuharu Misawa 
+[ ] +5,1991-02-24,WCW:WrestleWar '91 ,"Sting, Brian Pillman, Rick Steiner, Scott Steiner vs Ric Flair, Barry Windham, Sid Vicious, Larry Zbyszko "
+[ ] +5,1991-08-09,NJPW:G1 Climax '91 - Day 3 ,Big Van Vader vs Keiji Mutoh 
+[ ] +5,1992-04-30,NJPW:Sumo Hall Show (Apr '92) ,El Samurai vs Jushin Thunder Liger 
+[ ] +5,1992-05-17,WCW:WrestleWar '92 ,"Sting, Ricky Steamboat, Barry Windham, Nikita Koloff, Dustin Rhodes vs Steve Austin, Rick Rude, Arn Anderson, Bobby Eaton, Larry Zbyszko "
+[ ] +5,1993-05-09,SMW:Volunteer Slam II: Rage in a Cage ,"Tom Prichard, The Tazmaniac, Stan Lane, Killer Kyle, Kevin Sullivan vs Robert Gibson, Robert Fuller, Ricky Morton, Jimmy Golden, Brian Lee "
+[ ] +5,1993-07-29,AJPW:Budokan Hall Show (Jul '93) ,Stan Hansen vs Kenta Kobashi 
+[ ] +5,1993-12-03,AJPW:Budokan Hall Show (Dec '93) ,"Akira Taue, Toshiaki Kawada vs Kenta Kobashi, Mitsuharu Misawa "
+[ ] +5,1994-03-20,WWF:WrestleMania X ,Razor Ramon vs Shawn Michaels 
+[ ] +5,1994-04-16,NJPW:Super J Cup '94 ,The Great Sasuke vs Wild Pegasus 
+[ ] +6,1994-06-03,AJPW:Budokan Hall Show (Jun '94) ,Toshiaki Kawada vs Mitsuharu Misawa 
+[ ] +5,1994-08-29,WWF:SummerSlam '94 ,Owen Hart vs Bret Hart 
+[ ] +5,1994-11-06,WCW/AAA:When Worlds Collide ,"El Hijo del Santo, Octagon vs Eddy Guerrero, Art Barr "
+[ ] +5,1995-03-04,AJPW:Budokan Hall Show (Mar '95) ,"Johnny Ace, Steve Williams vs Kenta Kobashi, Mitsuharu Misawa "
+[ ] +5,1995-04-15,AJPW:Budokan Hall Show (Apr '95) ,Akira Taue vs Mitsuharu Misawa 
+[ ] +5,1995-06-09,AJPW:Budokan Hall Show (Jun '95) ,"Kenta Kobashi, Mitsuharu Misawa vs Akira Taue, Toshiaki Kawada "
+[ ] +5,1996-03-09,ECW:Big Ass Extreme Bash - Night 2 ,"Juventud Guerrera vs Rey Misterio, Jr. "
+[ ] +5,1996-06-07,AJPW:Budokan Hall Show (Jun '96) ,"Jun Akiyama, Mitsuharu Misawa vs Johnny Ace, Steve Williams "
+[ ] +5,1996-12-06,AJPW:Budokan Hall Show (Dec '96) ,"Akira Taue, Toshiaki Kawada vs Jun Akiyama, Mitsuharu Misawa "
+[ ] +5,1997-03-23,WWF:WrestleMania 13 ,Steve Austin vs Bret Hart 
+[ ] +5,1997-06-05,NJPW:Best of the Super Juniors IV - Day 17 ,Koji Kanemoto vs El Samurai 
+[ ] +5,1997-06-06,AJPW:Budokan Hall Show (Jun '97) ,Toshiaki Kawada vs Mitsuharu Misawa 
+[ ] +5,1997-10-05,WWF:In Your House 18: Badd Blood ,Shawn Michaels vs The Undertaker 
+[ ] +5,1997-12-05,AJPW:Budokan Hall Show (Dec '97) ,"Akira Taue, Toshiaki Kawada vs Jun Akiyama, Mitsuharu Misawa "
+[ ] +5,1998-10-31,AJPW:26th Anniversary Show ,Mitsuharu Misawa vs Kenta Kobashi 
+[ ] +5,1999-06-11,AJPW:Budokan Hall Show (Jun '99) ,Mitsuharu Misawa vs Kenta Kobashi 
+[ ] +5,2003-03-01,NOAH:Navigate for Evolution '03 - Day 9 ,Mitsuharu Misawa vs Kenta Kobashi 
+[ ] +5,2004-07-10,NOAH:Departure '04 ,Jun Akiyama vs Kenta Kobashi 
+[ ] +5,2004-10-16,ROH:Joe Vs. Punk II ,Samoa Joe vs C. M. Punk 
+[ ] +5,2005-09-11,TNA:Unbreakable ,"Christopher Daniels, Samoa Joe vs A.J. Styles "
+[ ] +5,2005-10-01,ROH:Joe Vs. Kobashi ,Kenta Kobashi vs Samoa Joe 
+[ ] +5,2006-03-31,ROH:Supercard Of Honor ,"Ryo Saito, Dragon Kid, Genki Horiguchi vs CIMA, Naruki Doi, Masato Yoshino "
+[ ] +5,2011-07-17,WWE:Money in the Bank '11 ,C. M. Punk vs John Cena 
+[ ] +5,2012-03-31,ROH:Showdown in the Sun - Day 2 ,Davey Richards vs Michael Elgin 
+[ ] +5,2012-10-08,NJPW:King of Pro Wrestling ,Minoru Suzuki vs Hiroshi Tanahashi 
+[ ] +5,2013-04-06,NJPW:Invasion Attack ,Kazuchika Okada vs Hiroshi Tanahashi 
+[ ] +4.75,2013-06-22,NJPW:Dominion 6.22 ,Katsuyori Shibata vs Hirooki Goto 
+[ ] +4.75,2013-08-01,NJPW:G1 Climax 23 - Day 2 ,Tomohiro Ishii vs Hiroshi Tanahashi 
+[ ] +5,2013-08-03,NJPW:G1 Climax 23 - Day 4 ,Tomohiro Ishii vs Katsuyori Shibata 
+[ ] +4.75,2013-08-03,NJPW:G1 Climax 23 - Day 4 ,Shinsuke Nakamura vs Kota Ibushi 
+[ ] +5,2013-10-14,NJPW:King of Pro Wrestling '13 ,Hiroshi Tanahashi vs Kazuchika Okada 
+[ ] +4.75,2013-12-23,NJPW:Road to Tokyo Dome - Day 6 ,"Shinsuke Nakamura, Kazuchika Okada vs Tetsuya Naito, Hiroshi Tanahashi "
+[ ] +4.75,2014-02-11,NJPW:New Beginning in Osaka '14 ,Hirooki Goto vs Kazuchika Okada 
+[ ] +4.75,2014-02-11,NJPW:New Beginning in Osaka '14 ,Tomohiro Ishii vs Tetsuya Naito 
+[ ] +4.75,2014-03-06,NJPW:Strong Style 42nd Anniversary Show ,Kazuchika Okada vs Kota Ibushi 
+[ ] +4.75,2014-05-25,NJPW:Return to Yokohama Arena ,Kota Ibushi vs Tomohiro Ishii 
+[ ] +4.75,2014-06-21,NJPW:Dominion 6.21 ,Ricochet vs Kota Ibushi 
+[ ] +4.75,2014-06-21,NJPW:Dominion 6.21 ,"Nick Jackson, Matt Jackson vs KUSHIDA, Alex Shelley "
+[ ] +4.75,2014-08-01,NJPW:G1 Climax 24 - Day 7 ,Shinsuke Nakamura vs Tomohiro Ishii 
+[ ] +4.75,2014-08-01,NJPW:G1 Climax 24 - Day 7 ,A.J. Styles vs Minoru Suzuki 
+[ ] +4.75,2014-08-03,NJPW:G1 Climax 24 - Day 8 ,Tomoaki Honma vs Katsuyori Shibata 
+[ ] +4.75,2014-08-10,NJPW:G1 Climax 24 - Day 12 Finals ,Shinsuke Nakamura vs Kazuchika Okada 
+[ ] +5,2014-09-21,NJPW:Destruction In Kobe '14 ,Hiroshi Tanahashi vs Katsuyori Shibata 
+[ ] +4.75,2014-11-08,NJPW:Power Struggle 2014 ,Hirooki Goto vs Tomohiro Ishii 
+[ ] +4.75,2014-12-11,NXT:TakeOver: R Evolution ,Sami Zayn vs Adrian Neville 
+[ ] +4.75,2015-01-04,NJPW:Wrestle Kingdom 9 ,Kazuchika Okada vs Hiroshi Tanahashi 
+[ ] +5,2015-01-04,NJPW:Wrestle Kingdom 9 ,Shinsuke Nakamura vs Kota Ibushi 
+[ ] +4.75,2015-01-25,WWE:Royal Rumble '15 ,"Seth Rollins, John Cena vs Brock Lesnar "
+[ ] +5,2015-02-14,NJPW:The New Beginning In Sendai '15 ,Tomoaki Honma vs Tomohiro Ishii 
+[ ] +4.75,2015-04-05,NJPW:Invasion Attack '15 ,A.J. Styles vs Kota Ibushi 
+[ ] +4.75,2015-05-16,ROH/NJPW:Global Wars '15 - Night #2 ,"Nick Jackson, Matt Jackson, A.J. Styles vs Kazuchika Okada, Beretta, Rocky Romero "
+[ ] +4.75,2015-06-07,NJPW:Best of the Super Juniors XXII - Day 13 ,KUSHIDA vs Kyle O'Reilly 
+[ ] +4.75,2015-07-05,NJPW:Dominion 7.5 ,A.J. Styles vs Kazuchika Okada 
+[ ] +5,2015-08-16,NJPW:G1 Climax 25 - Day 19 ,Shinsuke Nakamura vs Hiroshi Tanahashi 
+[ ] +4.75,2015-11-07,NJPW:Power Struggle 2015 ,Tomoaki Honma vs Tomohiro Ishii 
+[ ] +5,2016-01-04,NJPW:Wrestle Kingdom 10 ,Kazuchika Okada vs Hiroshi Tanahashi 
+[ ] +4.75,2016-01-04,NJPW:Wrestle Kingdom 10 ,Shinsuke Nakamura vs A.J. Styles 
+[ ] +4.75,2016-01-16,RevPro:High Stakes 2016 ,Will Ospreay vs Marty Scurll 
+[ ] +4.75,2016-02-14,NJPW:The New Beginning in Niigata ,Kenny Omega vs Hiroshi Tanahashi 
+[ ] +4.75,2016-03-04,PWG:All Star Weekend XII - Night 1 ,"Matt Jackson, Nick Jackson vs Matt Sydal, Ricochet "
+[ ] +4.75,2016-05-27,NJPW:Best of the Super Juniors XXIII - Day 6 ,Will Ospreay vs Ricochet 
+[ ] +4.75,2016-06-19,NJPW:Dominion 6.19 ,Michael Elgin vs Kenny Omega 
+[ ] +4.75,2016-08-03,NJPW:G1 Climax 26 - Day 11 ,Tomohiro Ishii vs Hiroshi Tanahashi 
+[ ] +5,2016-08-06,NJPW:G1 Climax 26 - Day 13 ,Tomohiro Ishii vs Kazuchika Okada 
+[ ] +4.75,2016-08-12,NJPW:G1 Climax 26 - Day 17 ,Hiroshi Tanahashi vs Kazuchika Okada 
+[ ] +5,2016-08-13,NJPW:G1 Climax 26 - Day 18 ,Kenny Omega vs Tetsuya Naito 
+[ ] +4.75,2016-08-14,NJPW:G1 Climax 26 - Day 19 ,Kenny Omega vs Hirooki Goto 
+[ ] +5,2016-09-03,PWG:Battle of Los Angeles 2016 - Night 2 ,"Nick Jackson, Adam Cole, Matt Jackson vs Will Ospreay, Ricochet, Matt Sydal "
+[ ] +4.75,2016-09-30,ROH/NJPW:All Star Extravaganza VIII ,"Matt Jackson, Nick Jackson vs Frankie Kazarian, Christopher Daniels, Alex Shelley, Chris Sabin "
+[ ] +4.75,2016-10-10,NJPW:King of Pro-Wrestling '16 ,Naomichi Marufuji vs Kazuchika Okada 
+[ ] +4.75,2016-10-10,NJPW:King of Pro-Wrestling '16 ,Kenny Omega vs Hirooki Goto 
+[ ] +6,2017-01-04,NJPW:Wrestle Kingdom XI ,Kazuchika Okada vs Kenny Omega 
+[ ] +4.75,2017-01-29,WWE:Royal Rumble '17 ,A.J. Styles vs John Cena 
+[ ] +4.75,2017-02-05,NJPW:The New Beginning in Sapporo 2017 ,Kazuchika Okada vs Minoru Suzuki 
+[ ] +5,2017-02-11,NJPW:The New Beginning in Osaka 2017 ,Tetsuya Naito vs Michael Elgin 
+[ ] +4.75,2017-03-12,NJPW:New Japan Cup 2017 - Day 2 ,Kenny Omega vs Tomohiro Ishii 
+[ ] +4.75,2017-03-18,PWG:Nice Boys (Don't Play Rock N' Roll) ,"Ricochet, Matt Sydal, Nick Jackson, Matt Jackson vs Penta el Zero M, Rey Fenix "
+[ ] +5,2017-04-09,NJPW:Sakura Genesis 2017 ,Katsuyori Shibata vs Kazuchika Okada 
+[ ] +4.75,2017-05-03,NJPW:Wrestling Dontaku 2017 ,Tomohiro Ishii vs Kenny Omega 
+[ ] +4.75,2017-05-18,NJPW:Best of the Super Juniors 2017 - Day 2 ,Will Ospreay vs Ricochet 
+[ ] +4.75,2017-05-20,NXT:TakeOver: Chicago ,Pete Dunne vs Tyler Bate 
+[ ] +5,2017-06-03,NJPW:Best of the Super Juniors 2017 - Day 14 ,KUSHIDA vs Will Ospreay 
+[ ] +4.75,2017-06-11,NJPW:Dominion 6.11 ,KUSHIDA vs Hiromu Takahashi 
+[ ] +6.25,2017-06-11,NJPW:Dominion 6.11 ,Kazuchika Okada vs Kenny Omega 
+[ ] +4.75,2017-07-01,NJPW:G1 Special in USA - Day 1 ,Kenny Omega vs Michael Elgin 
+[ ] +4.75,2017-07-02,NJPW:G1 Special in USA - Day 2 ,Kenny Omega vs Tomohiro Ishii 
+[ ] +4.75,2017-07-17,NJPW:G1 Climax 2017 - Day 1 ,Tetsuya Naito vs Kota Ibushi 
+[ ] +4.75,2017-07-20,NJPW:G1 Climax 2017 - Day 2 ,Kenny Omega vs Minoru Suzuki 
+[ ] +4.75,2017-07-22,NJPW:G1 Climax 2017 - Day 4 ,Kazuchika Okada vs Michael Elgin 
+[ ] +4.75,2017-07-27,NJPW:G1 Climax 2017 - Day 8 ,Michael Elgin vs Kenny Omega 
+[ ] +4.75,2017-07-27,NOAH:Summer Navigation 2017 ~ 11th Global Junior Heavyweight Tag League - Day 8 ,Katsuhiko Nakajima vs Brian Cage 
+[ ] +4.75,2017-08-01,NJPW:G1 Climax 2017 - Day 11 ,Hiroshi Tanahashi vs Kota Ibushi 
+[ ] +4.75,2017-08-08,NJPW:G1 Climax 2017 - Day 16 ,Minoru Suzuki vs Kazuchika Okada 
+[ ] +5,2017-08-11,NJPW:G1 Climax 2017 - Day 17 ,Tetsuya Naito vs Hiroshi Tanahashi 
+[ ] +6,2017-08-12,NJPW:G1 Climax 2017 - Day 18 ,Kenny Omega vs Kazuchika Okada 
+[ ] +5.75,2017-08-13,NJPW:G1 Climax 2017 - Day 19 ,Kenny Omega vs Tetsuya Naito 
+[ ] +4.75,2017-08-20,WWE:SummerSlam '17 ,"Braun Strowman, Roman Reigns, Samoa Joe vs Brock Lesnar "
+[ ] +5,2017-09-03,PWG:Battle of Los Angeles 2017 - Day 3 ,Donovan Dijak vs Keith Lee 
+[ ] +4.75,2017-10-09,NJPW:King Of Pro-Wrestling 2017 ,Tomohiro Ishii vs Tetsuya Naito 
+[ ] +5,2017-10-21,PWG:All Star Weekend 13 - Night 2 ,WALTER vs Zack Sabre Jr. 
+[ ] +4.75,2017-11-05,NJPW:Power Struggle 2017 ,Kota Ibushi vs Hiroshi Tanahashi 
+[ ] +4.75,2017-11-10,NJPW/RevPro:Global Wars '17 - Day 2 ,Will Ospreay vs Zack Sabre Jr. 
+[ ] +4.75,2018-01-04,NJPW:WrestleKingdom 12 ,"Will Ospreay vs Marty Scurll, KUSHIDA, Hiromu Takahashi "
+[ ] +5,2018-01-04,NJPW:WrestleKingdom 12 ,Chris Jericho vs Kenny Omega 
+[ ] +5,2018-01-27,NXT:TakeOver: Philadelphia ,"Johnny Gargano vs Andrade ""Cien"" Almas "
+[ ] +4.75,2018-02-10,NJPW:The New Beginning in Osaka 2018 ,Hiromu Takahashi vs Will Ospreay 
+[ ] +4.75,2018-02-10,NJPW:The New Beginning in Osaka 2018 ,SANADA vs Kazuchika Okada 
+[ ] +4.75,2018-03-23,PWG:Time is a Flat Circle ,Matt Riddle vs Zack Sabre Jr. 
+[ ] +5,2018-03-25,NJPW:Strong Style Evolved ,"Nick Jackson, Matt Jackson vs Kota Ibushi, Kenny Omega "
+[ ] +4.75,2018-04-01,NJPW:Sakura Genesis 2018 ,Zack Sabre Jr. vs Kazuchika Okada 
+[ ] +5,2018-04-01,NJPW:Sakura Genesis 2018 ,Marty Scurll vs Will Ospreay 
+[ ] +5,2018-04-07,NXT:Takeover: New Orleans ,Johnny Gargano vs Tommaso Ciampa 
+[ ] +5,2018-04-07,NXT:Takeover: New Orleans ,"EC3, Killian Dain, Lars Sullivan, Ricochet, The Velveteen Dream vs Adam Cole "
+[ ] +4.75,2018-05-04,NJPW:Wrestling Dontaku 2018 - Day 2 ,Will Ospreay vs KUSHIDA 
+[ ] +5.5,2018-05-04,NJPW:Wrestling Dontaku 2018 - Day 2 ,Kazuchika Okada vs Hiroshi Tanahashi 
+[ ] +4.75,2018-06-03,NJPW:Best of the Super Juniors XXV - Day 13 ,Will Ospreay vs Flip Gordon 
+[ ] +5.5,2018-06-04,NJPW:Best of the Super Juniors XXV - Day 14 ,Hiromu Takahashi vs Taiji Ishimori 
+[ ] +7,2018-06-09,NJPW:Dominion 6.9 In Osaka-Jo Hall ,Kenny Omega vs Kazuchika Okada 
+[ ] +4.75,2018-06-09,NJPW:Dominion 6.9 In Osaka-Jo Hall ,Will Ospreay vs Hiromu Takahashi 
+[ ] +4.75,2018-06-29,ROH:Best in the World 2018 ,"Mark Briscoe, Jay Briscoe vs Matt Jackson, Nick Jackson "
+[ ] +5,2018-07-21,NJPW:G1 Climax 2018 - Day 6 ,Hirooki Goto vs Tomohiro Ishii 
+[ ] +4.75,2018-07-26,NJPW:G1 Climax 2018 - Day 8 ,Kota Ibushi vs SANADA 
+[ ] +4.75,2018-07-28,NJPW:G1 Climax 2018 - Day 10 ,Tomohiro Ishii vs Kota Ibushi 
+[ ] +4.75,2018-07-28,NJPW:G1 Climax 2018 - Day 10 ,Kenny Omega vs SANADA 
+[ ] +5.5,2018-08-04,NJPW:G1 Climax 2018 - Day 14 ,Tomohiro Ishii vs Kenny Omega 
+[ ] +4.75,2018-08-04,NJPW:G1 Climax 2018 - Day 14 ,Tetsuya Naito vs Kota Ibushi 
+[ ] +4.75,2018-09-15,NJPW:Destruction in Hiroshima 2018 ,Tomohiro Ishii vs Kenny Omega 

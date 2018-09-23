@@ -1,7 +1,8 @@
-[ ] +5,1983-04-21,NJPW:Sumo Hall Show (Apr '83) ,Dynamite Kid vs Tiger Mask I 
-[ ] +5,1984-12-05,UWF (original):Tokyo Show (Dec '84) ,Kazuo Yamazaki vs Nobuhiko Takada 
-[ ] +5,1985-03-09,AJPW:Sumo Hall Show (Mar '85) ,Kuniaki Kobayashi vs Tiger Mask II 
-[ ] +5,1986-02-14,CWF:Battle of the Belts 2 ,Barry Windham vs Ric Flair 
+[ ] +5,1983-04-21,NJPW:Sumo Hall Show (Apr '83) ,Dynamite Kid vs Tiger Mask I
+
+[ ] +5,1984-12-05,UWF (original):Tokyo Show (Dec '84) ,Kazuo Yamazaki vs Nobuhiko Takada
+[ ] +5,1985-03-09,AJPW:Sumo Hall Show (Mar '85) ,Kuniaki Kobayashi vs Tiger Mask II
+[ ] +5,1986-02-14,CWF:Battle of the Belts 2 ,Barry Windham vs Ric Flair
 [ ] +5,1986-04-19,NWA:Jim Crockett Sr. Memorial Tag Team Tournament ,"Bobby Fulton, Tommy Rogers vs Butch Miller, Luke Williams "
 [ ] +5,1987-04-11,NWA:Crockett Cup '87 - Day 2 ,Barry Windham vs Ric Flair 
 [ ] +5,1987-07-31,NWA:The Great American Bash '87 (FL) ,"The War Machine, Lex Luger, Tully Blanchard, Arn Anderson, Ric Flair vs Paul Ellering, Animal, Hawk, Nikita Koloff, Dusty Rhodes "

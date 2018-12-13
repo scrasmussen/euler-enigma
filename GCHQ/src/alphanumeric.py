@@ -11,20 +11,18 @@ lowercaseDict = dict(lowercase)
 uppercaseDict = dict(uppercase)
 
 
-def printLowercase(start=1):
+def printLowercase():
   print(lowercase, end='')
   print()
   return
 
-def printuppercase(start=1):
+def printuppercase():
   print(uppercase, end='')
   print()
   return
 
 
-def printWord(word):
+def printWord(word, add=0):
   l = list(word)
   for letter in l:
-    print(letter,uppercaseDict[letter])
-    a = []
-    # print(letter,uppercase[4])
+    print(letter,uppercaseDict[letter]+add)

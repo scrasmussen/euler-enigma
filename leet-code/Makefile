@@ -1,6 +1,6 @@
 lc=g++-8
 copt=
-file=problem1.cpp
+file=problem2.cpp
 
 all: build
 

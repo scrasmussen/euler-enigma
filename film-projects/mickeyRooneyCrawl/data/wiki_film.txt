@@ -623,7 +623,6 @@
 | Santa Claus
 | Voice
 |-
-
 | 1975
 | ''Ace of Hearts''
 | Papa Joe
@@ -998,4 +997,3 @@
 | ''Dr. Jekyll and Mr. Hyde''
 | Mr. Louis
 | Released posthumously, (final film role)
-|}

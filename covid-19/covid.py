@@ -8,7 +8,13 @@ import sys
 
 def func(x,a,b,c,d):
     return a * (x**3) + b * (x**2) + c * x + d
-initial = (0.5, 0.5, 0.5, 0.5)
+
+king = False
+print(len(sys.argv))
+if (len(sys.argv) > 1 and str(sys.argv[1]) == '-king'):
+    print("Oh hi Neil King!")
+    king = True
+
 
 f = pd.read_csv('data/uk.csv')
 
@@ -20,6 +26,7 @@ fit = f.dropna()
 # Curve fit
 x_orig = fit['number positive'].index.astype(float).values
 y_orig = fit['number positive'].values
+initial = (0.5, 0.5, 0.5, 0.5)
 params = curve_fit(func, x_orig, y_orig, initial)
 col_params = params[0]
 
@@ -46,10 +53,11 @@ plt.scatter(x_orig, y_orig, color='black')
 
 plt.xlabel("Nth Day of March")
 plt.ylabel("Number of Cases")
-plt.title("Neil King's Fun Fun Fun Coronavirus Graph")
+plt.title("Soren's Fun Fun Fun Coronavirus Graph")
 
-# img = plt.imread('neilKing.jpeg')
-# plt.imshow(img, extent=[0,31,0,5000], aspect='auto')
+if king:
+    img = plt.imread('neilKing.jpeg')
+    plt.imshow(img, extent=[0,31,0,10000], aspect='auto')
 
 
 plt.show()

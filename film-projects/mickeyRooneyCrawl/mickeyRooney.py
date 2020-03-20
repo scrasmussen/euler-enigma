@@ -5,6 +5,7 @@
 
 import numpy as np
 import pandas as pd
+from bs4 import BeautifulSoup
 
 # 'data/imdb_filmography.txt'
 
@@ -37,8 +38,17 @@ while True:
         else:
             uncredited = False
 
-        # append film to dataframe
+        # append film to dataframep
         wiki = wiki.append({w_names[0]:year, w_names[1]:film,
                             w_names[2]:uncredited}, ignore_index=True)
     else:
         w_file.readline()
+
+# --- handle imdb data ---
+imdb_file = 'data/imdb_filmography.txt'
+i_file = open(imdb_file, 'r')
+soup = BeautifulSoup(i_file, 'html.parser')
+# i_names = ['year','film','credited']
+
+# need to remove filmo-episodes
+# get <b><a href>  </a></b>

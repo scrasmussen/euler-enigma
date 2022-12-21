@@ -2,8 +2,7 @@
 #   Advent of Coding @ adventofcode.com
 # ----------------------------------------------------------------------
 lc=julia
-file=2022-03.jl
-
+file=2022-04.jl
 
 all: build
 

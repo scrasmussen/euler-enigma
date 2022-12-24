@@ -1,114 +1,139 @@
 #-----------------------------------------------------------------------
-#                     Day 10: Cathode-Ray Tube
+#                     Day 11: Monkey in the middle
 #-----------------------------------------------------------------------
 using DelimitedFiles
-file="input/2022-10-input.txt"
-# file="input/2022-10-test.txt"
+file="input/2022-11-input.txt"
+# file="input/2022-11-test.txt"
+
+function test()
+end
+
+mutable struct Monkey
+    num::Int64
+    items::Vector{Int64}
+    op
+    test_div::Int64
+    test_true::Int64
+    test_false::Int64
+    items_inspected::Int64
+end
+
+function parse_op_and_int(eq)
+    if eq[2] == "*"
+        return f1(x) = x * parse(Int64,eq[3])
+    elseif eq[2] == "+"
+        return f2(x) = x + parse(Int64,eq[3])
+    else
+        println("PARSE OP AND INT ERROR")
+        exit(1)
+    end
+end
+
+function parse_op(eq)
+    if eq[2] == "*"
+        return f3(x) = x * x
+    elseif eq[2] == "+"
+        return f4(x) = x + x
+    else
+        println("PARSE OP ERROR")
+        exit(1)
+    end
+end
 
 function readFile()
     f = open(file,"r")
 
-    # read array from file
     init = true
-    global A
+    monkeys = Monkey[]
+    monkey_num = 0
+    monkey_items = Vector{Int64}
+    count = 1
+    func = nothing
+    test_div = nothing
+    test_true = 0
+    test_false = 0
     for line in eachline(f)
-        A_s = split(line," ")
-        if (A_s[1] == "noop")
-            a2 = 0
-        else
-            a2 = parse(Int, A_s[2])
+        if count == 1 # "Monkey"
+            monkey_num = parse(Int64,line[8:8]) + 1
+        elseif count == 2 # Starting Items
+            data = split(line[19:end], ", ")
+            monkey_items = [parse(Int64,i) for i in data]
+        elseif count == 3 # Operation
+            eq = split(line[20:end])
+            if eq[3] == "old"
+                func = parse_op(eq)
+            else
+                func = parse_op_and_int(eq)
+            end
+        elseif count == 4 # Divisible
+            test_div = parse(Int64,line[22:end])
+        elseif count == 5 # If true
+            test_true = parse(Int64, line[30:end]) + 1
+        elseif count == 6 # If false
+            test_false = parse(Int64, line[31:end]) + 1
+            monkeys = append!(monkeys, [Monkey(
+                monkey_num, monkey_items, func,
+                test_div, test_true, test_false, 0)])
+        elseif count == 7 # blank line
+            count = 0
         end
-        a = (A_s[1], a2)
-        A = init ? [a] : append!(A,[a])
-        init = false
+        count += 1
     end
-    return A
+    return monkeys
 end
 
-# instructions
-# addx V: takes 2 cycles, X register add V
-# noop: takes 1 cycle, no effect
-function process(instructions)
-    sum = 0
-    count = 0
-    cycle = 1
-    X = 1
-    for (val, i) in instructions
-        # println(X," ",i)
-        # println(cycle, ": X = ", X)
-        if ((cycle+20)%40 == 0) || ((cycle+20)%40 == 39 && val == "addx")
-            sum += X * (count * 40 + 20)
-            println("cycle: ", cycle, " m ", X * (count*40+20),
-                    "=", X,"*(",count,"*",40,"+",20,")")
-            count += 1
-        end
+function execute_rounds(monkeys)
+    monkey_business = 1
+    max = 20 # problem 1
+    max = 10000 # problem 2
+    modulo_num = 1
+    for m in monkeys
+        modulo_num *=  m.test_div
+    end
 
-        if val == "noop"
-            cycle += 1
-        else
-            cycle += 2
-            X += i
+    for i in 1:max
+        for m in monkeys
+            while ! isempty(m.items)
+                i = pop!(m.items)
+                m.items_inspected += 1
+                worry_level = i
+                worry_level = m.op(worry_level)
+                if (max == 20)
+                    worry_level = Int(floor(worry_level/3))
+                elseif (max == 10000)
+                    worry_level = worry_level%modulo_num
+                end
+                if (worry_level%m.test_div == 0)
+                    push!(monkeys[m.test_true].items, worry_level)
+                else
+                    push!(monkeys[m.test_false].items, worry_level)
+                end
+
+            end
         end
     end
-    return sum
-end
-
-function write_CRT(cycle, X)
-    CRT = (cycle-1)%40
-    # println(CRT, " :: ", X)
-    if (CRT == 0)
-        println()
-    else
-        if (CRT == X-1 || CRT == X || CRT == X+1)
-            print("X")
-        else
-            print(".")
+    println(max, " rounds :::::")
+    active_1 = 0
+    active_2 = 0
+    for m in monkeys
+        println(m.items_inspected)
+        if m.items_inspected > active_1
+            active_2 = active_1
+            active_1 = m.items_inspected
+        elseif m.items_inspected > active_2
+            active_2 = m.items_inspected
         end
     end
-end
 
-function process_and_draw(instructions)
-    sum = 0
-    count = 0
-    cycle = 1
-    X = 1
-    CRT = 1
-    for (val, i) in instructions
-        # println(X," ",i)
-        # println(cycle, ": X = ", X)
-        if ((cycle+20)%40 == 0) || ((cycle+20)%40 == 39 && val == "addx")
-            sum += X * (count * 40 + 20)
-            # println("cycle: ", cycle, " m ", X * (count*40+20),
-            #         "=", X,"*(",count,"*",40,"+",20,")")
-            count += 1
-        end
-
-        if val == "noop"
-            write_CRT(cycle, X)
-            cycle += 1
-        else
-            write_CRT(cycle, X)
-            cycle += 1
-            write_CRT(cycle, X)
-            cycle += 1
-            X += i
-        end
-    end
-    return sum
+    return active_1 * active_2
 end
 
 function problem1()
-    instructions = readFile()
-    val = process(instructions)
-    println("Sum of the signal strengths is ", val)
+    monkeys = readFile()
+    monkey_business = execute_rounds(monkeys)
+
+    println("The level of monkey business is ", monkey_business)
 end
 
-function problem2()
-    instructions = readFile()
-    val = process_and_draw(instructions)
-    println()
-end
-
-
-# problem1()
-problem2()
+problem1()
+# problem2()

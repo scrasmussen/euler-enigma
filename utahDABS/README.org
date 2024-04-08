@@ -1,0 +1,115 @@
+#+STARTUP: content
+* DABS Info
+** Product List: excel spreadsheets
+https://abs.utah.gov/shop-products/interactive-product-list/
+
+** Schema
+|----------------------+------------------------------------------------------------|
+| Description          | The product name and size.                                 |
+| Div, Dept, and Class | DABS Category codes assigned to products (View Categories) |
+| Size                 | Volume of the product in milliliters                       |
+| CSC                  | The unique product identification number                   |
+| Status               | The listing status of a product (View Status codes)        |
+| On SPA               | Special pricing flag (View Policy)                         |
+|----------------------+------------------------------------------------------------|
+
+*** Div, Dept, and Class
+|------+---------------------------------------|
+| Code | Description                           |
+|------+---------------------------------------|
+| A    | Spirits                               |
+| C    | Liquers, Schnapps, Premixed           |
+| E    | Wine: Dessert, Aperitif, Late Harvest |
+| G    | Wine: Fruit, Cider, Sake              |
+| I    | Wine: Champagne, Sparkling            |
+| K    | Wine: White Table                     |
+| M    | Wine: Blush, Rose                     |
+| P    | Wine: Red Table                       |
+| R    | Flavored Malt Beverages               |
+| T    | Beer                                  |
+| Y    | Gifts and Special Orders              |
+|------+---------------------------------------|
+**** A
+|-------------+------------------------------|
+| ADF Vodka   |                              |
+| ADM Vodka   | Flavored                     |
+| ADU Vodka   | Misc & Acquavit              |
+| ADW Vodka   | Domestic                     |
+| ADX Vodka   | Imported                     |
+| AHG Gin     | Dry                          |
+| AHM Gin     | Flavored                     |
+| AHW Gin     | Domestic                     |
+| AHX Gin     | Imported                     |
+| ALE Rum     | Light                        |
+| ALJ Rum     | Dark                         |
+| ALU Rum     | Misc                         |
+| ALW Rum     | Domestic                     |
+| ALX Rum     | Imported                     |
+| APD Tequila | Silver                       |
+| APF Tequila | Gold                         |
+| APJ Tequila | Reposado & Anejo             |
+| APM Tequila | Flavored                     |
+| APQ Mezcal  |                              |
+| ATB Brandy  |                              |
+| ATG Brandy  | Cognac & Armagnac            |
+| ATJ Brandy  | Calvados & Applejack         |
+| ATM Brandy  | Spiced & Flavored            |
+| ATR Brandy  | Grappa & Eaux de Vie         |
+| ATU Brandy  | Misc                         |
+| ATW Brandy  | Domestic                     |
+| AWB Whiskey | Canadian                     |
+| AWE Whiskey | Blended                      |
+| AWH Whiskey | Bourbon & Tennessee          |
+| AWK Whiskey | Bourbon Single Barrel, Batch |
+| AWN Whiskey | Irish                        |
+| AWR Whisky  | Scotch Blended               |
+| AWS Whisky  | Scotch Single Malt           |
+| AWU Whiskey | Misc                         |
+| AWW Whiskey | Domestic                     |
+| AWX Whiskey | Imported                     |
+|-------------+------------------------------|
+
+**** C
+|--------------+---------------------|
+| CHB Liqueurs | Triple Sec & Orange |
+| CHE Liqueurs | Fruit               |
+| CHH Liqueurs | Amaretto & Nut      |
+| CHK Liqueurs | Coffee              |
+| CHN Liqueurs | Chocolate & Cocoa   |
+| CHQ Liqueurs | Anise & Sambuca     |
+| CHS Liqueurs | Bitters & Herbal    |
+| CHU Liqueurs | Misc                |
+| CHV Liqueurs | Cream               |
+| CHW Liqueurs | Domestic            |
+| CHX Liqueurs | Imported            |
+| CPC Schnapps | Peppermint          |
+| CPG Schnapps | Fruit               |
+| CPK Schnapps | Hot & Spiced        |
+| CPP Schnapps | Butterscotch        |
+| CPS Schnapps | Gold                |
+| CPU Schnapps | Misc                |
+| CPW Schnapps | Domestic            |
+| CPX Schnapps | Imported            |
+| CWF PreMixed | Margarita           |
+| CWL PreMixed | Long Island Tea     |
+| CWR PreMixed | Mudslide            |
+| CWU PreMixed | Misc                |
+|--------------+---------------------|
+
+*** Product Status Codes
+|------+--------------------------------------------------------------|
+| Code | Description                                                  |
+|------+--------------------------------------------------------------|
+| 1    | General distribution product                                 |
+| D    | Discontinued general distribution product (limited quantity) |
+| L    | Limited, high end product (sold at select stores)            |
+| X    | Discontinued limited product (sold at select stores)         |
+| A    | Product is allocated in certain quantities at select stores  |
+| U    | Product will be unavailable shortly                          |
+| S    | Product available by special order only.                     |
+| N    | Unavailable general item.                                    |
+| T    | Trial product.                                               |
+|------+--------------------------------------------------------------|
+
+** Data URLs
+https://abs.utah.gov/wp-content/uploads/Apr-2024-Product-List_FY24_P10.xlsx
